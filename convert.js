@@ -13,6 +13,8 @@ if((process.argv[2] > 0) && (typeof(process.argv[3]) == "string") && (process.ar
         console.log(process.argv[2] + " " + process.argv[3] + " are " + process.argv[2] *10 + " " + process.argv[5]);
     }else if(process.argv[3] == process.argv[5]){
         console.log(process.argv[2] + " " + process.argv[3] + " are " + process.argv[2] + " " + process.argv[5]);
+    }else {
+        console.log("Invalid parameters");
     }
 }else {
     console.log("Invalid parameters");
